@@ -1,0 +1,4 @@
+interface:
+  display_name: "SQL Review"
+  short_description: "Review SQL correctness, security, and performance"
+  default_prompt: "Use $sql-review to review this query for correctness and performance."

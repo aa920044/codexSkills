@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtime TW Stock Snapshot"
+  short_description: "Query Taiwan stock snapshots, institutional flows, and FX context."
+  default_prompt: "Use $realtime-tw-stock-snapshot to check my Taiwan stocks and return the fixed Markdown report."

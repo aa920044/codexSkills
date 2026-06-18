@@ -1,0 +1,18 @@
+{
+  "range_position_low": 0.35,
+  "range_position_high": 0.65,
+  "large_move_percent": 2.0,
+  "watch_turnover_volume_lot": 10000,
+  "default_heavy_volume_lot": 50000,
+  "heavy_volume_lot_by_symbol": {
+    "3231": 50000,
+    "2382": 30000,
+    "2356": 60000,
+    "2317": 50000
+  },
+  "market_turnover_lookback_days": 5,
+  "market_turnover_low_ratio": 0.85,
+  "market_turnover_high_ratio": 1.15,
+  "strong_sector_avg_percent": 1.0,
+  "weak_sector_avg_percent": -1.0
+}
