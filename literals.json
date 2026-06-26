@@ -1,0 +1,1335 @@
+{
+    "zh-tw": {
+        "index": {
+            "category": {
+                "MANAGEMENT": "系統管理",
+                "NOT_CATEGORIZED": "未分類"
+            }
+        }
+    },
+    "zh-cn": {
+        "index": {
+            "category": {
+                "MANAGEMENT": "系统管理",
+                "NOT_CATEGORIZED": "未分类"
+            },
+            "/formConfig": "窗体组态设定",
+            "/config": "系统设定",
+            "/procDef": "流程部署",
+            "/auth": "系统角色及授权",
+            "/app": [
+                "系统角色及授权（全）",
+                "所有应用系统角色及授权"
+            ],
+            "/pendingForm": [
+                "待处理窗体总览",
+                "本系统所有待处理窗体"
+            ],
+            "/externalUser": [
+                "外部账号管理",
+                "非华新员工人员登入账号管理"
+            ],
+            "/sysActionLog": "业务日志",
+            "/fileUpload": "上传文件管理"
+        },
+        "sys": {
+            "viewActions": {
+                "add": "新增",
+                "delete": "删除选取的数据列",
+                "copy": "复制选取的数据列",
+                "duplicate": "复制选取的数据列",
+                "deleteConfirmTitle": "删除确认",
+                "deleteConfirmButton": "我要删除",
+                "deleteConfirmContent": "您确定要删除选取的 {1} 笔数据？",
+                "deleteSuccess": "删除成功！",
+                "deleteSuccessInfo": "成功删除 {1} 笔数据！",
+                "revertData": "回复为异动前资料",
+                "exitEditMode": "离开列编辑模式",
+                "uploadAndSaveDirtyRows": "上传并储存异动的列数据",
+                "rowValidationFailed": "列数据检核失败，无法上传！",
+                "rowsSaved": "数据上传并储存成功！",
+                "addNewRow": "新增一列",
+                "copyRows": "复制列数据"
+            },
+            "formActions": {
+                "save": "保存",
+                "apply": "送审",
+                "agree": "同意",
+                "disagree": "不同意",
+                "reAudit": "重审",
+                "reEdit": "重新编辑",
+                "addReviewers": "发起会签",
+                "assignExecutors": "指派承办",
+                "review": "会签",
+                "withdraw": "撤件",
+                "execute": "处理完成",
+                "printPreview": "打印预览",
+                "log": "历程",
+                "exit": "离开",
+                "skipPendingTasks": "略过攔置任務",
+                "saveSuccess": "窗体保存完成！",
+                "applySuccess": "窗体送审成功！",
+                "approveSuccess": "审批完成！",
+                "reauditSuccess": "已成功启动窗体重审流程！",
+                "addReviewersSuccess": "会签邀请已成功发出！",
+                "assignExecutorsSuccess": "指派通知已成功送出！",
+                "reviewSuccess": "送出回复会签意见成功！",
+                "executeSuccess": "送出处理完成通知成功！",
+                "withdrawSuccess": "撤件成功！",
+                "formUpdateNeeded": "您已异动本单内容，提交后将自动储存异动的内容！"
+            }
+        },
+        "view": {
+            "config": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "代号",
+                    "category": "分类",
+                    "description": "说明",
+                    "createTime": "建立时间",
+                    "modifyTime": "异动时间",
+                    "creator": "建立者",
+                    "modifier": "异动者"
+                }
+            },
+            "processDefinition": {
+                "viewActions": {},
+                "viewColumns": {
+                    "name": "流程名称",
+                    "key": "流程代码",
+                    "version": "版本",
+                    "description": "说明",
+                    "tenantId": "租户",
+                    "deployTime": "部署时间",
+                    "deployer": "部署者"
+                }
+            },
+            "application": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "系统代号",
+                    "name": "系统名称",
+                    "description": "说明",
+                    "createTime": "建立时间",
+                    "modifyTime": "异动时间",
+                    "creator": "建立者",
+                    "modifier": "异动者"
+                }
+            },
+            "appRole": {
+                "viewActions": {},
+                "viewColumns": {
+                    "appCode": "系统代号",
+                    "code": "角色代号",
+                    "name": "角色名称",
+                    "description": "说明",
+                    "createTime": "建立时间",
+                    "modifyTime": "异动时间",
+                    "creator": "建立者",
+                    "modifier": "异动者"
+                }
+            },
+            "appRoleMember": {
+                "viewActions": {
+                    "add": "新增角色成員",
+                    "delete": "刪除角色成員"
+                },
+                "viewColumns": {
+                    "roleId": "角色ID",
+                    "empId": "工号",
+                    "memberName": "姓名",
+                    "memberCostName": "部門",
+                    "memberCostNo": "部門代碼",
+                    "creationTime": "建立时间",
+                    "creator": "建立者工号",
+                    "memberCreatorName": "建立者姓名"
+                }
+            },
+            "formConfig": {
+                "viewActions": {
+                    "add": "新增窗体组态",
+                    "delete": "删除窗体组态"
+                },
+                "viewColumns": {
+                    "code": "窗体代号",
+                    "name": "窗体名称",
+                    "formStatus": "窗体状态",
+                    "numbering": "自动编号规则",
+                    "flowable": "启用流程",
+                    "logRead": "阅读记录",
+                    "routePath": "前端网页路径",
+                    "servicePath": "后端服务路径",
+                    "flowProcessId": "流程 ID",
+                    "description": "说明",
+                    "createTime": "建立时间",
+                    "modifyTime": "异动时间",
+                    "creator": "建立者",
+                    "modifier": "异动者"
+                }
+            },
+            "auditLog": {
+                "viewActions": {
+                    "add": "新增角色成员",
+                    "delete": "删除角色成员"
+                },
+                "viewColumns": {
+                    "formId": "窗体 ID",
+                    "formCode": "窗体代码",
+                    "action": "动作",
+                    "actor": "执行者工号",
+                    "actorName": "执行者姓名",
+                    "logTime": "时间",
+                    "details": "备注"
+                }
+            },
+            "pendingForm": {
+                "formActions": {
+                    "wordExport": "下载"
+                },
+                "viewActions": {
+                    "add": "新增",
+                    "delete": "删除",
+                    "changeAssignee": "变更窗体处理人",
+                    "removePendingForms": "移除已处理表单"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "formName": "表单名称",
+                    "formCode": "表单代码",
+                    "formNo": "表单号码",
+                    "assignee": "目前处理人工号",
+                    "assigneeName": "目前处理人",
+                    "taskName": "目前状态",
+                    "createTime": "起始时间",
+                    "applicantName": "申请人",
+                    "applicant": "申请人工号",
+                    "revision": "版次",
+                    "assigneeEmpStatus": "目前处理人状态",
+                    "subject": "主题"
+                }
+            },
+            "externalUser": {
+                "formActions": {},
+                "viewActions": {
+                    "add": "新增账号",
+                    "delete": "删除选取账号"
+                },
+                "viewColumns": {
+                    "id": "账号",
+                    "name": "名称",
+                    "email": "Email",
+                    "description": "说明",
+                    "lastLoginIP": "登入 IP",
+                    "lastLoginTime": "登入时间",
+                    "modifyTime": "异动时间",
+                    "modifier": "异动者",
+                    "createTime": "建立时间",
+                    "creator": "建立者"
+                }
+            },
+            "sysLog": {
+                "formActions": {
+                    "wordExport": "下载"
+                },
+                "viewActions": {
+                    "add": "新增",
+                    "delete": "删除"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "realm": "功能别",
+                    "formCode": "表单代号",
+                    "targetOid": "功能 ID",
+                    "action": "动作",
+                    "details": "资料明细",
+                    "remarks": "备注",
+                    "status": "状态",
+                    "actor": "执行者",
+                    "empId": "执行者帐号",
+                    "empName": "执行者姓名",
+                    "requestUrl": "路径",
+                    "ip": "IP",
+                    "logTime": "时间",
+                    "logTimeStart": "记录日期(起)",
+                    "logTimeEnd": "记录日期(迄)",
+                    "account": "执行者",
+                    "inputAccountHelp": "输入帐号或姓名"
+                }
+            }
+        },
+        "validator": {
+            "required": "此字段为必填"
+        },
+        "messages": {
+            "import": {
+                "title": "离开确认",
+                "confirmText": "我要放弃并离开！",
+                "content": "您尚未上传（汇入）档案，确定要放弃并离开？"
+            },
+            "dataRevert": {
+                "severity": "warn",
+                "title": "数据回复确认",
+                "confirmText": "我要回复",
+                "content": [
+                    "您已异动了列数据，确认后将回复为异动前的数据！",
+                    "您确定要回复？"
+                ]
+            },
+            "changeAssignee": {
+                "severity": "warn",
+                "title": "变更确认",
+                "confirmText": "我要变更",
+                "content": "您确定要将所选的 {1} 份表单待处理人员变更为「{2}」？"
+            },
+            "removePendingForms": {
+                "severity": "warn",
+                "title": "执行确认",
+                "confirmText": "我要执行",
+                "content": [
+                    "此动作会检查并自动移除您已处理完成的待处理表单！",
+                    "您确定要执行？"
+                ]
+            }
+        },
+        "save": {
+            "void": "您尚未异动窗体属性，无须执行保存！"
+        },
+        "apply": {
+            "error": "字段检核有误。。。",
+            "confirm": {
+                "severity": "info",
+                "title": "送审确认",
+                "content": [
+                    "所有字段检核无误！",
+                    "您确定要送审本申请单？"
+                ],
+                "confirmText": "我要送审"
+            }
+        },
+        "comment": {
+            "SAVE": {
+                "title": "保存注记",
+                "comments": "",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "保存确认",
+                    "confirmText": "我要保存",
+                    "cancelText": "取消",
+                    "content": [
+                        "确定要保存？"
+                    ]
+                }
+            },
+            "AGREE": {
+                "title": "同意意见",
+                "placeholder": "请输入同意原因...",
+                "comments": "",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "同意确认",
+                    "confirmText": "确定",
+                    "cancelText": "取消",
+                    "content": [
+                        "您确定要审批同意？"
+                    ]
+                }
+            },
+            "DISAGREE": {
+                "title": "不同意意见",
+                "placeholder": "请输入不同意原因...",
+                "comments": "",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "fatal",
+                    "title": "不同意确认",
+                    "confirmText": "确定",
+                    "cancelText": "取消",
+                    "content": [
+                        "您确定要审批不同意？"
+                    ]
+                }
+            },
+            "REVIEW": {
+                "title": "会签意见",
+                "comments": "同意。",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "会签确认",
+                    "confirmText": "我要送出",
+                    "cancelText": "取消送出",
+                    "content": [
+                        "确定要送出会签意见？"
+                    ]
+                }
+            },
+            "EXECUTE": {
+                "title": "承办意见",
+                "comments": "我已处理完成您所指派的任务。",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "完成确认",
+                    "confirmText": "我要送出",
+                    "cancelText": "取消送出",
+                    "content": [
+                        "确定要完成指派事项？"
+                    ]
+                }
+            },
+            "SKIP_TASK": {
+                "title": "略过原因",
+                "comments": "",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "placeholder": "请输入略过原因...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "略过确认",
+                    "confirmText": "我要略过处理人员",
+                    "cancelText": "取消",
+                    "content": [
+                        "您确定要略过选取的处理人员吗？",
+                        "略过后，选取的处理人员将不再显示在列表中。"
+                    ]
+                }
+            },
+            "COMPLETE_TASKS": {
+                "title": "意见回复",
+                "comments": "",
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "placeholder": "请输入回复意见...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "批次完成确认",
+                    "confirmText": "我要批次完成选取的待处理表单",
+                    "cancelText": "取消",
+                    "content": [
+                        "您确定要批次完成选取的待处理表单吗？"
+                    ]
+                }
+            },
+            "WITHDRAW": {
+                "title": "撤件原因",
+                "placeholder": "请输入撤件原因...",                
+                "confirmText": "确认送出",
+                "cancelText": "取消",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "撤件确认",
+                    "confirmText": "我要撤件",
+                    "cancelText": "取消撤件",
+                    "content": [
+                        "您确定要撤件？"
+                    ]
+                }
+            }
+        }
+    },
+    "en": {
+        "index": {
+            "category": {
+                "MANAGEMENT": "MANAGEMENT",
+                "NOT_CATEGORIZED": "NOT CATEGORIZED"
+            },
+            "/formConfig": "Form Config",
+            "/config": "System Config",
+            "/procDef": "Process Deployment",
+            "/auth": "Authorization",
+            "/app": [
+                "Authorization (All)",
+                "For All Applications"
+            ],
+            "/pendingForm": [
+                "All Pending Forms",
+                ""
+            ],
+            "/externalUser": [
+                "External User Management",
+                ""
+            ],
+            "/sysActionLog": "Action Logs",
+            "/fileUpload": "File Upload Management"
+        },
+        "sys": {
+            "viewActions": {
+                "add": "Add",
+                "delete": "Delete rows",
+                "copy": "Copy rows",
+                "duplicate": "Duplicate selected rows",
+                "deleteConfirmTitle": "Delete Confirmation",
+                "deleteConfirmButton": "I want to delete!",
+                "deleteConfirmContent": "Are you sure you want to delete the selected {1} row(s) of data?",
+                "deleteSuccess": "Deletion successful!",
+                "deleteSuccessInfo": "{1} row(s) DELETED successfully!",
+                "revertData": "Revert to original data",
+                "exitEditMode": "Exit edit mode",
+                "uploadAndSaveDirtyRows": "Upload and save modified row(s)",
+                "rowValidationFailed": "One or more field values have been validated with errors!",
+                "rowsSaved": "Row data uploaded and saved successfully!",
+                "addNewRow": "Add a new row",
+                "copyRows": "Copy rows"
+            },
+            "formActions": {
+                "save": "Save",
+                "apply": "Apply",
+                "agree": "Agree",
+                "disagree": "Disagree",
+                "reAudit": "Re-Audit",
+                "reEdit": "Re-Edit",
+                "addReviewers": "Add Reviewers",
+                "assignExecutors": "Assign Executors",
+                "review": "Review",
+                "withdraw": "Withdraw",
+                "execute": "Execute",
+                "printPreview": "Print Preview",
+                "log": "History",
+                "exit": "Exit",
+                "skipPendingTasks": "Skip Pending Tasks",
+                "saveSuccess": "Save successful!",
+                "applySuccess": "Application succcessful!",
+                "approveSuccess": "Approval successfull！",
+                "reauditSuccess": "Reaudit process successfully restarted！",
+                "addReviewersSuccess": "Review invitation successfully sent!",
+                "assignExecutorsSuccess": "Assignment successfully sent！",
+                "reviewSuccess": "Review successful！",
+                "executeSuccess": "Execution completed successfully！",
+                "withdrawSuccess": "Withdraw successful！",
+                "formUpdateNeeded": "You have modified the form data, and they will be automatically saved after submission!"
+            }
+        },
+        "view": {
+            "config": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "Code",
+                    "category": "Category",
+                    "description": "Description",
+                    "createTime": "Creation Time",
+                    "modifyTime": "Modification Time",
+                    "creator": "Creator",
+                    "modifier": "modifier"
+                }
+            },
+            "processDefinition": {
+                "viewActions": {},
+                "viewColumns": {
+                    "name": "Process Name",
+                    "key": "Process Key",
+                    "version": "Version",
+                    "description": "Description",
+                    "tenantId": "Tenant ID",
+                    "deployTime": "Deployment Time",
+                    "deployer": "Deployer"
+                }
+            },
+            "application": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "Application Code",
+                    "name": "Application Name",
+                    "description": "Description",
+                    "createTime": "Creation Time",
+                    "modifyTime": "Modification Time",
+                    "creator": "Creator",
+                    "modifier": "Modifider"
+                }
+            },
+            "appRole": {
+                "viewActions": {},
+                "viewColumns": {
+                    "appCode": "APPlication Code",
+                    "code": "Role Code",
+                    "name": "Role Name",
+                    "description": "Description",
+                    "createTime": "Creation Time",
+                    "modifyTime": "Modification Time",
+                    "creator": "Creator",
+                    "modifier": "Modifider"
+                }
+            },
+            "appRoleMember": {
+                "viewActions": {
+                    "add": "Add role members",
+                    "delete": "Delete role members"
+                },
+                "viewColumns": {
+                    "roleId": "Role ID",
+                    "empId": "ID",
+                    "memberName": "Name",
+                    "memberCostName": "Dept. Name",
+                    "memberCostNo": "Dept. ID",
+                    "creationTime": "Creation Time",
+                    "creator": "Creator ID",
+                    "memberCreatorName": "Creator Name"
+                }
+            },
+            "formConfig": {
+                "viewActions": {
+                    "add": "Add a new form configuration",
+                    "delete": "Delete the selected configuration(s)"
+                },
+                "viewColumns": {
+                    "code": "Code",
+                    "name": "Name",
+                    "formStatus": "Form Status",
+                    "numbering": "Numbering Rule",
+                    "flowable": "Flowable",
+                    "logRead": "Log Read",
+                    "routePath": "Route Path",
+                    "servicePath": "Service Path",
+                    "flowProcessId": "Flow Process ID",
+                    "description": "Description",
+                    "createTime": "Creation Time",
+                    "modifyTime": "Modification Time",
+                    "creator": "Creator",
+                    "modifier": "Modifier"
+                }
+            },
+            "auditLog": {
+                "viewColumns": {
+                    "formId": "Form ID",
+                    "formCode": "Form Code",
+                    "action": "Action",
+                    "actor": "Actor ID",
+                    "actorName": "Actor Name",
+                    "logTime": "Log Time",
+                    "details": "Details"
+                }
+            },
+            "department": {
+                "viewTitle": "Departments",
+                "viewColumns": {
+                    "costNo": "Dept. ID",
+                    "costName": "Dept. Name",
+                    "bu": "BU",
+                    "ou": "OU",
+                    "headId": "Manager ID",
+                    "headName": "Manager Name"
+                }
+            },
+            "employee": {
+                "viewTitle": "Employees",
+                "viewColumns": {
+                    "empId": "Emp. ID",
+                    "name": "Emp. Name",
+                    "postName": "Job Title",
+                    "locName": "Workplace",
+                    "costNo": "Dept. ID",
+                    "costName": "Dept. Name",
+                    "bu": "BU",
+                    "ou": "OU",
+                    "email": "E-Mail"
+                }
+            },
+            "pendingForm": {
+                "formActions": {
+                    "wordExport": "Download"
+                },
+                "viewActions": {
+                    "add": "Add",
+                    "delete": "Delete",
+                    "changeAssignee": "Change Assignee",
+                    "removePendingForms": "Remove Completed Forms"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "formName": "Form Name",
+                    "formCode": "Form Code",
+                    "formNo": "Form No",
+                    "assignee": "Assignee ID",
+                    "assigneeName": "Assignee",
+                    "taskName": "Task",
+                    "createTime": "Task Start Time",
+                    "applicantName": "Applicant",
+                    "applicant": "Applicant ID",
+                    "revision": "Revision",
+                    "assigneeEmpStatus": "Assignee Emp. Status",
+                    "subject": "Subject"
+                }
+            },
+            "externalUser": {
+                "formActions": {},
+                "viewActions": {
+                    "add": "Add",
+                    "delete": "Delete"
+                },
+                "viewColumns": {
+                    "id": "Account",
+                    "name": "Name",
+                    "email": "Email",
+                    "description": "Description",
+                    "lastLoginIP": "Last Login IP",
+                    "lastLoginTime": "Last Login Time",
+                    "modifyTime": "Modification Time",
+                    "modifier": "Modifier",
+                    "createTime": "Creation Time",
+                    "creator": "Creator"
+                }
+            },
+            "sysLog": {
+                "formActions": {
+                    "wordExport": "Download"
+                },
+                "viewActions": {
+                    "add": "Add",
+                    "delete": "Delete"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "realm": "Realm",
+                    "formCode": "Form Code",
+                    "targetOid": "Realm ID",
+                    "action": "Action",
+                    "details": "Details",
+                    "remarks": "Remarks",
+                    "status": "status",
+                    "actor": "Actor",
+                    "empId": "Actor Id",
+                    "empName": "Actor Name",
+                    "requestUrl": "API URL",
+                    "ip": "IP",
+                    "logTime": "Log Date",
+                    "logTimeStart": "Log Date (From)",
+                    "logTimeEnd": "Log Date (To)",
+                    "account": "Actor",
+                    "inputAccountHelp": "Enter Actor ID or Name"
+                }
+            }
+        },
+        "validator": {
+            "required": "This field is required!"
+        },
+        "messages": {
+            "deleteRows": {
+                "severity": "fatal",
+                "title": "Delete Confirmation",
+                "confirmText": "I want to delete!",
+                "content": "Are you sure you want to delete the selected {1} row(s) of data?"
+            },
+            "dataDirty": {
+                "title": "Data Modification Notice",
+                "confirmText": "I got it!",
+                "content": [
+                    "The data in this form has been modified!",
+                    "Please re-open this form after refreshing the data table!"
+                ]
+            },
+            "discardChanges": {
+                "title": "Exit Confirmation",
+                "content": [
+                    "You have modified the data in this form.",
+                    "Are you sure you want to discard the changes?"
+                ],
+                "confirmText": "Yes, I want to discard!",
+                "cancelText": "No, don't close this form."
+            },
+            "import": {
+                "title": "Exit Confirmation",
+                "confirmText": "Yes, I want to exit!",
+                "content": "Are you sure you want to exit without uploading (importing)?"
+            },
+            "dataRevert": {
+                "severity": "warn",
+                "title": "Data Revert Confirmation",
+                "confirmText": "Yes, I want to revert!",
+                "content": [
+                    "You have modified the row data!",
+                    "Are you sure you want to revert to its original state?"
+                ]
+            },
+            "changeAssignee": {
+                "severity": "warn",
+                "title": "Change Confirmation",
+                "confirmText": "Confirm Change",
+                "content": "Are you sure you want to change the current pending assignee for the selected {1} forms to \"{2}\"?"
+            },
+            "removePendingForms": {
+                "severity": "warn",
+                "title": "Execute Confirmation",
+                "confirmText": "I want to execute",
+                "content": [
+                    "This action will check and automatically remove the completed forms you have processed!",
+                    "Are you sure you want to execute?"
+                ]
+            }
+        },
+        "save": {
+            "void": "You have not made any changes to this form. There is no need to save!"
+        },
+        "apply": {
+            "error": "The data in this form have been validated with ERRORS!",
+            "confirm": {
+                "severity": "info",
+                "title": "Apply Confirmation",
+                "content": [
+                    "The data in this form have been validated WITHOUT errors!",
+                    "Are you sure you want to apply this form?"
+                ],
+                "confirmText": "Yes, I want to apply."
+            }
+        },
+        "comment": {
+            "SAVE": {
+                "title": "Save Comment",
+                "comments": "",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Save Confirmation",
+                    "confirmText": "Yes, I'm very sure!",
+                    "cancelText": "No, please cancel it!",
+                    "content": [
+                        "Are you sure you want to save?"
+                    ]
+                }
+            },
+            "AGREE": {
+                "title": "Agree Comment",
+                "placeholder": "Please enter the reason for agreement...",
+                "comments": "",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Agreement Confirmation",
+                    "confirmText": "OK",
+                    "cancelText": "Cancel",
+                    "content": [
+                        "Are you sure you want to approve and agree?"
+                    ]
+                }
+            },
+            "DISAGREE": {
+                "title": "Disagreement Comment",
+                "placeholder": "Please enter the reason for disagreement...",
+                "comments": "",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "fatal",
+                    "title": "Disagreement Confirmation",
+                    "confirmText": "OK",
+                    "cancelText": "Cancel",
+                    "content": [
+                        "Are you sure you want to disapprove?"
+                    ]
+                }
+            },
+            "REVIEW": {
+                "title": "Review Comment",
+                "comments": "Agree.",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Review Confirmation",
+                    "confirmText": "Yes, I'm very sure!",
+                    "cancelText": "No, please cancel it!",
+                    "content": [
+                        "Are you sure you want to submit?"
+                    ]
+                }
+            },
+            "EXECUTE": {
+                "title": "Comment",
+                "comments": "I have finished the assignment.",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Submit Confirmation",
+                    "confirmText": "Yes, I'm very sure!",
+                    "cancelText": "No, please cancel it!",
+                    "content": [
+                        "Are you sure you want to submit?"
+                    ]
+                }
+            },
+            "SKIP_TASK": {
+                "title": "Skip Reason",
+                "comments": "",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "placeholder": "Please enter the reason for skipping the assignee(s)...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Skip Assignees Confirmation",
+                    "confirmText": "Skip assignees(s)",
+                    "cancelText": "Cancel",
+                    "content": [
+                        "Are you sure you want to skip the selected assignees(s)?",
+                        "After skipping, the selected assignees(s) will no longer be displayed in the list."
+                    ]
+                }
+            },
+            "COMPLETE_TASKS": {
+                "title": "Comment Reply",
+                "comments": "",
+                "confirmText": "Confirm Submit",
+                "cancelText": "Cancel",
+                "placeholder": "Please enter your reply...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Batch Completion Confirmation",
+                    "confirmText": "I want to batch complete the selected pending forms",
+                    "cancelText": "Cancel",
+                    "content": [
+                        "Are you sure you want to batch complete the selected pending forms?"
+                    ]
+                }
+            },
+            "WITHDRAW": {
+                "title": "Reason for Withdrawal",
+                "placeholder": "Please enter the reason for withdrawal...",
+                "confirmText": "Submit",
+                "cancelText": "Cancel",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Withdrawal Confirmation",
+                    "confirmText": "Withdraw",
+                    "cancelText": "Cancel Withdrawal",
+                    "content": [
+                        "Are you sure you want to withdraw this form?"
+                    ]
+                }
+            }
+        }
+    },
+    "id": {
+        "index": {
+            "category": {
+                "MANAGEMENT": "Manajemen Sistem",
+                "NOT_CATEGORIZED": "Tidak Dikategorikan"
+            },
+            "/formConfig": "Pengaturan Konfigurasi Formulir",
+            "/config": "Pengaturan Sistem",
+            "/procDef": "Penyebaran Proses",
+            "/auth": "Peran dan Otorisasi Sistem",
+            "/app": [
+                "Peran dan Otorisasi Sistem (Penuh)",
+                "Peran dan Otorisasi Semua Sistem Aplikasi"
+            ],
+            "/pendingForm": [
+                "Ikhtisar Formulir Tertunda",
+                "Semua Formulir Tertunda Sistem Ini"
+            ],
+            "/externalUser": [
+                "Manajemen Akun Eksternal",
+                "Manajemen Akun Login Karyawan Non-Walsin"
+            ],
+            "/sysActionLog": "Log Aktivitas Bisnis",
+            "/fileUpload": "Manajemen Unggah Berkas"
+        },
+        "sys": {
+            "viewActions": {
+                "add": "Tambah",
+                "delete": "Hapus Baris Data yang Dipilih",
+                "copy": "Salin Baris Data yang Dipilih",
+                "duplicate": "Duplikat Baris Data yang Dipilih",
+                "deleteConfirmTitle": "Konfirmasi Penghapusan",
+                "deleteConfirmButton": "Saya Ingin Menghapus",
+                "deleteConfirmContent": "Anda yakin ingin menghapus {1} data yang dipilih?",
+                "deleteSuccess": "Penghapusan Berhasil!",
+                "deleteSuccessInfo": "Berhasil menghapus {1} data!",
+                "revertData": "Kembalikan Data Sebelum Perubahan",
+                "exitEditMode": "Keluar dari Mode Edit Baris",
+                "uploadAndSaveDirtyRows": "Unggah dan Simpan Data Baris yang Diubah",
+                "rowValidationFailed": "Validasi Data Baris Gagal, Tidak Dapat Diunggah!",
+                "rowsSaved": "Unggahan dan Penyimpanan Data Berhasil!",
+                "addNewRow": "Tambah Baris Baru",
+                "copyRows": "Salin Data Baris"
+            },
+            "formActions": {
+                "save": "Simpan",
+                "apply": "Kirim untuk Ditinjau",
+                "agree": "Setuju",
+                "disagree": "Tidak Setuju",
+                "reAudit": "Audit Ulang",
+                "reEdit": "Edit Ulang",
+                "addReviewers": "Mulai Peninjauan Bersama",
+                "assignExecutors": "Tetapkan Pelaksana",
+                "review": "Peninjauan Bersama",
+                "withdraw": "Penarikan",
+                "execute": "Selesai Diproses",
+                "printPreview": "Pratinjau Cetak",
+                "log": "Riwayat",
+                "exit": "Keluar",
+                "skipPendingTasks": "Lewati Tugas Tertunda",
+                "saveSuccess": "Penyimpanan Formulir Selesai!",
+                "applySuccess": "Pengiriman Formulir untuk Ditinjau Berhasil!",
+                "approveSuccess": "Persetujuan Selesai!",
+                "reauditSuccess": "Proses Audit Ulang Formulir Berhasil Dimulai!",
+                "addReviewersSuccess": "Undangan Peninjauan Bersama Berhasil Dikirim!",
+                "assignExecutorsSuccess": "Pemberitahuan Penugasan Berhasil Dikirim!",
+                "reviewSuccess": "Pengiriman Balasan Pendapat Peninjauan Bersama Berhasil!",
+                "executeSuccess": "Pengiriman Pemberitahuan Selesai Diproses Berhasil!",
+                "withdrawSuccess": "Penarikan Formulir Berhasil!",
+                "formUpdateNeeded": "Anda telah mengubah konten formulir ini, pengiriman akan secara otomatis menyimpan konten yang diubah!"
+            }
+        },
+        "view": {
+            "config": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "Kode",
+                    "category": "Kategori",
+                    "description": "Deskripsi",
+                    "createTime": "Waktu Pembuatan",
+                    "modifyTime": "Waktu Perubahan",
+                    "creator": "Pembuat",
+                    "modifier": "Pengubah"
+                }
+            },
+            "processDefinition": {
+                "viewActions": {},
+                "viewColumns": {
+                    "name": "Nama Proses",
+                    "key": "Kode Proses",
+                    "version": "Versi",
+                    "description": "Deskripsi",
+                    "tenantId": "Penyewa",
+                    "deployTime": "Waktu Penyebaran",
+                    "deployer": "Penyebar"
+                }
+            },
+            "application": {
+                "viewActions": {},
+                "viewColumns": {
+                    "code": "Kode Sistem",
+                    "name": "Nama Sistem",
+                    "description": "Deskripsi",
+                    "createTime": "Waktu Pembuatan",
+                    "modifyTime": "Waktu Perubahan",
+                    "creator": "Pembuat",
+                    "modifier": "Pengubah"
+                }
+            },
+            "appRole": {
+                "viewActions": {},
+                "viewColumns": {
+                    "appCode": "Kode Sistem",
+                    "code": "Kode Peran",
+                    "name": "Nama Peran",
+                    "description": "Deskripsi",
+                    "createTime": "Waktu Pembuatan",
+                    "modifyTime": "Waktu Perubahan",
+                    "creator": "Pembuat",
+                    "modifier": "Pengubah"
+                }
+            },
+            "appRoleMember": {
+                "viewActions": {
+                    "add": "Tambah Anggota Peran",
+                    "delete": "Hapus Anggota Peran"
+                },
+                "viewColumns": {
+                    "roleId": "ID Peran",
+                    "empId": "ID Karyawan",
+                    "memberName": "Nama",
+                    "memberCostName": "Nama Departemen",
+                    "memberCostNo": "ID Departemen",
+                    "creationTime": "Waktu Pembuatan",
+                    "creator": "ID Pembuat",
+                    "memberCreatorName": "Nama Pembuat"
+                }
+            },
+            "formConfig": {
+                "viewActions": {
+                    "add": "Tambah Konfigurasi Formulir",
+                    "delete": "Hapus Konfigurasi Formulir"
+                },
+                "viewColumns": {
+                    "code": "Kode Formulir",
+                    "name": "Nama Formulir",
+                    "formStatus": "Status Formulir",
+                    "numbering": "Aturan Penomoran Otomatis",
+                    "flowable": "Aktifkan Proses",
+                    "logRead": "Catatan Baca",
+                    "routePath": "Jalur Halaman Depan",
+                    "servicePath": "Jalur Layanan Belakang",
+                    "flowProcessId": "ID Proses Alur",
+                    "description": "Deskripsi",
+                    "createTime": "Waktu Pembuatan",
+                    "modifyTime": "Waktu Perubahan",
+                    "creator": "Pembuat",
+                    "modifier": "Pengubah"
+                }
+            },
+            "auditLog": {
+                "viewActions": {
+                    "add": "Tambah Anggota Peran",
+                    "delete": "Hapus Anggota Peran"
+                },
+                "viewColumns": {
+                    "formId": "ID Formulir",
+                    "formCode": "Kode Formulir",
+                    "action": "Aksi",
+                    "actor": "Nomor Karyawan Pelaksana",
+                    "actorName": "Nama Pelaksana",
+                    "logTime": "Waktu",
+                    "details": "Catatan"
+                }
+            },
+            "pendingForm": {
+                "formActions": {
+                    "wordExport": "Unduh"
+                },
+                "viewActions": {
+                    "add": "Tambah Dokumen",
+                    "delete": "Hapus Dokumen",
+                    "changeAssignee": "Ubah Penanggung Jawab",
+                    "removePendingForms": "Hapus formulir yang telah diproses"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "formName": "Nama Formulir",
+                    "formCode": "Kode Formulir",
+                    "formNo": "Nomor Formulir",
+                    "assignee": "Nomor Karyawan Pemroses Saat Ini",
+                    "assigneeName": "Pemroses Saat Ini",
+                    "taskName": "Status Saat Ini",
+                    "createTime": "Waktu Mulai",
+                    "applicantName": "Pemohon",
+                    "applicant": "Nomor Karyawan Pemohon",
+                    "revision": "Revisi",
+                    "assigneeEmpStatus": "Status Pemroses Saat Ini",
+                    "subject": "Subjek"
+                }
+            },
+            "externalUser": {
+                "formActions": {},
+                "viewActions": {
+                    "add": "Tambah Akun",
+                    "delete": "Hapus Akun yang Dipilih"
+                },
+                "viewColumns": {
+                    "id": "Akun",
+                    "name": "Nama",
+                    "email": "Email",
+                    "description": "Deskripsi",
+                    "lastLoginIP": "IP Login Terakhir",
+                    "lastLoginTime": "Waktu Login Terakhir",
+                    "modifyTime": "Waktu Perubahan",
+                    "modifier": "Pengubah",
+                    "createTime": "Waktu Pembuatan",
+                    "creator": "Pembuat"
+                }
+            },
+            "sysLog": {
+                "formActions": {
+                    "wordExport": "Unduh"
+                },
+                "viewActions": {
+                    "add": "Tambah",
+                    "delete": "Hapus"
+                },
+                "viewColumns": {
+                    "id": "ID",
+                    "realm": "Kategori Fitur",
+                    "formCode": "Kode Formulir",
+                    "targetOid": "ID Fitur",
+                    "action": "Aksi",
+                    "details": "Detail Data",
+                    "remarks": "Catatan",
+                    "status": "Status",
+                    "actor": "Pelaksana",
+                    "empId": "Akun Pelaksana",
+                    "empName": "Nama Pelaksana",
+                    "requestUrl": "URL Permintaan",
+                    "ip": "IP",
+                    "logTime": "Waktu",
+                    "logTimeStart": "Tanggal Catatan (Mulai)",
+                    "logTimeEnd": "Tanggal Catatan (Akhir)",
+                    "account": "Pelaksana",
+                    "inputAccountHelp": "Masukkan Akun atau Nama"
+                }
+            }
+        },
+        "validator": {
+            "required": "Kolom ini wajib diisi"
+        },
+        "messages": {
+            "import": {
+                "title": "Konfirmasi Keluar",
+                "confirmText": "Saya ingin membatalkan dan keluar!",
+                "content": "Anda belum mengunggah (mengimpor) file. Apakah Anda yakin ingin membatalkan dan keluar?"
+            },
+            "dataRevert": {
+                "severity": "warn",
+                "title": "Konfirmasi Pemulihan Data",
+                "confirmText": "Saya ingin memulihkan",
+                "content": [
+                    "Anda telah mengubah data dalam baris. Setelah dikonfirmasi, data akan dikembalikan ke kondisi sebelum perubahan!",
+                    "Apakah Anda yakin ingin memulihkan?"
+                ]
+            },
+            "changeAssignee": {
+                "severity": "warn",
+                "title": "Konfirmasi Perubahan",
+                "confirmText": "Saya ingin mengubah",
+                "content": "Apakah Anda yakin ingin mengubah penanggung jawab tertunda saat ini untuk {1} formulir yang dipilih menjadi \"{2}\"?"
+            },
+            "removePendingForms": {
+                "severity": "warn",
+                "title": "Konfirmasi penyelesaian",
+                "confirmText": "Saya ingin menyelesaikan",
+                "content": [
+                    "Tindakan ini akan memeriksa dan secara otomatis menghapus formulir tertunda yang telah Anda selesaikan!",
+                    "Apakah Anda yakin ingin menyelesaikan?"
+                ]
+            }
+        },
+        "save": {
+            "void": "Anda belum mengubah properti formulir, tidak perlu menyimpan!"
+        },
+        "apply": {
+            "error": "Kesalahan validasi kolom...",
+            "confirm": {
+                "severity": "info",
+                "title": "Konfirmasi Pengajuan",
+                "content": [
+                    "Semua kolom telah divalidasi tanpa kesalahan!",
+                    "Apakah Anda yakin ingin mengajukan permohonan ini?"
+                ],
+                "confirmText": "Saya ingin mengajukan"
+            }
+        },
+        "comment": {
+            "SAVE": {
+                "title": "Catatan Simpan",
+                "comments": "",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Konfirmasi Simpan",
+                    "confirmText": "Saya ingin menyimpan",
+                    "cancelText": "Batal",
+                    "content": [
+                        "Apakah Anda yakin ingin menyimpan?"
+                    ]
+                }
+            },
+            "AGREE": {
+                "title": "Komentar Persetujuan",
+                "placeholder": "Silakan masukkan alasan persetujuan...",
+                "comments": "",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Konfirmasi Persetujuan",
+                    "confirmText": "OK",
+                    "cancelText": "Batal",
+                    "content": [
+                        "Apakah Anda yakin ingin menyetujui dan menyepakati?"
+                    ]
+                }
+            },
+            "DISAGREE": {
+                "title": "Komentar Ketidaksetujuan",
+                "placeholder": "Silakan masukkan alasan ketidaksetujuan...",
+                "comments": "",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "fatal",
+                    "title": "Konfirmasi Ketidaksetujuan",
+                    "confirmText": "OK",
+                    "cancelText": "Batal",
+                    "content": [
+                        "Apakah Anda yakin ingin menolak?"
+                    ]
+                }
+            },
+            "REVIEW": {
+                "title": "Pendapat Paraf",
+                "comments": "Setuju.",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Konfirmasi Paraf",
+                    "confirmText": "Saya ingin mengirim",
+                    "cancelText": "Batalkan Pengiriman",
+                    "content": [
+                        "Apakah Anda yakin ingin mengirim pendapat paraf?"
+                    ]
+                }
+            },
+            "EXECUTE": {
+                "title": "Pendapat Pelaksana",
+                "comments": "Saya telah menyelesaikan tugas yang Anda tugaskan.",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "info",
+                    "title": "Konfirmasi Penyelesaian",
+                    "confirmText": "Saya ingin mengirim",
+                    "cancelText": "Batalkan Pengiriman",
+                    "content": [
+                        "Apakah Anda yakin ingin menyelesaikan tugas yang ditugaskan?"
+                    ]
+                }
+            },
+            "SKIP_TASK": {
+                "title": "Alasan Lewati",
+                "comments": "",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "placeholder": "Silakan masukkan alasan melewati petugas...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Konfirmasi Lewati",
+                    "confirmText": "Lewati petugas",
+                    "cancelText": "Batal",
+                    "content": [
+                        "Apakah Anda yakin ingin melewati petugas yang dipilih?",
+                        "Setelah dilewati, tugas yang dipilih tidak akan ditampilkan lagi di daftar."
+                    ]
+                }
+            },
+            "COMPLETE_TASKS": {
+                "title": "Balasan Komentar",
+                "comments": "",
+                "confirmText": "Konfirmasi Kirim",
+                "cancelText": "Batal",
+                "placeholder": "Silakan masukkan balasan Anda...",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Konfirmasi Penyelesaian Batch",
+                    "confirmText": "Saya ingin menyelesaikan batch formulir tertunda yang dipilih",
+                    "cancelText": "Batal",
+                    "content": [
+                        "Apakah Anda yakin ingin menyelesaikan batch formulir tertunda yang dipilih?"
+                    ]
+                }
+            },
+            "WITHDRAW": {
+                "title": "Alasan Penarikan",
+                "placeholder": "Silakan masukkan alasan penarikan...",
+                "confirmText": "Kirim",
+                "cancelText": "Batal",
+                "confirmation": {
+                    "severity": "warn",
+                    "title": "Konfirmasi Penarikan",
+                    "confirmText": "Tarik Formulir",
+                    "cancelText": "Batalkan Penarikan",
+                    "content": [
+                        "Apakah Anda yakin ingin menarik formulir ini?"
+                    ]
+                }
+            }
+        }
+    }
+}
