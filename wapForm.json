@@ -1,0 +1,684 @@
+{
+        "_$": {
+                "_": {
+                        "default": "表單資訊",
+                        "en": "Form Information",
+                        "zh-cn": "表单信息",
+                        "id": "Informasi Formulir"
+                },
+                "8d5f5a77-194a-415e-8f53-536cc18c82e2": {
+                        "default": "建立者",
+                        "en": "Creator",
+                        "zh-cn": "创建者",
+                        "id": "Pembuat"
+                },
+                "undefined": {
+                        "default": "新增欄位",
+                        "en": "",
+                        "zh-cn": "新增欄位",
+                        "id": ""
+                },
+                "56d55b3b-875c-4e44-b49a-4823037daca0": {
+                        "default": "申請者",
+                        "en": "Applicant",
+                        "zh-cn": "申请者",
+                        "id": "Pemohon"
+                },
+                "ef7a3688-49c6-47e0-8702-963ef6597868": {
+                        "default": "建立者/申請者",
+                        "en": "Creator/Applicant",
+                        "zh-cn": "创建者/申请者",
+                        "id": "Pembuat/Pemohon"
+                },
+                "aedf74b9-ebf0-459a-8028-c5a63e62fa49": {
+                        "default": "建立者",
+                        "en": "Creator",
+                        "zh-cn": "创建者",
+                        "id": "Pembuat"
+                },
+                "creatorName": {
+                        "default": "姓名",
+                        "en": "Name",
+                        "zh-cn": "姓名",
+                        "id": "Nama"
+                },
+                "creator": {
+                        "default": "工號",
+                        "en": "Employee ID",
+                        "zh-cn": "工号",
+                        "id": "ID Karyawan"
+                },
+                "creatorTitle": {
+                        "default": "職稱",
+                        "en": "Title",
+                        "zh-cn": "职称",
+                        "id": "Jabatan"
+                },
+                "creatorLoc": {
+                        "default": "工作地",
+                        "en": "Workplace",
+                        "zh-cn": "工作地",
+                        "id": "Tempat Kerja"
+                },
+                "creatorDeptName": {
+                        "default": "部門",
+                        "en": "Department",
+                        "zh-cn": "部门",
+                        "id": "Departemen"
+                },
+                "creatorDept": {
+                        "default": "部門代碼",
+                        "en": "Department Code",
+                        "zh-cn": "部门代码",
+                        "id": "Kode Departemen"
+                },
+                "creatorExtension": {
+                        "default": "分機",
+                        "en": "Extension",
+                        "zh-cn": "分机",
+                        "id": "Ekstensi"
+                },
+                "97566dde-56b6-4872-a6ff-56cb213e2679": {
+                        "default": "申請者",
+                        "en": "Applicant",
+                        "zh-cn": "申请者",
+                        "id": "Pemohon"
+                },
+                "applicantName": {
+                        "default": "姓名",
+                        "en": "Name",
+                        "zh-cn": "姓名",
+                        "id": "Nama"
+                },
+                "applicant": {
+                        "default": "工號",
+                        "en": "Employee ID",
+                        "zh-cn": "工号",
+                        "id": "ID Karyawan"
+                },
+                "applicantTitle": {
+                        "default": "職稱",
+                        "en": "Title",
+                        "zh-cn": "职称",
+                        "id": "Jabatan"
+                },
+                "applicantExtension": {
+                        "default": "分機",
+                        "en": "Extension",
+                        "zh-cn": "分机",
+                        "id": "Ekstensi"
+                },
+                "applicantLoc": {
+                        "default": "工作地",
+                        "en": "Workplace",
+                        "zh-cn": "工作地",
+                        "id": "Tempat Kerja"
+                },
+                "applicantDeptName": {
+                        "default": "部門",
+                        "en": "Department",
+                        "zh-cn": "部门",
+                        "id": "Departemen"
+                },
+                "applicantDept": {
+                        "default": "部門代碼",
+                        "en": "Department Code",
+                        "zh-cn": "部门代码",
+                        "id": "Kode Departemen"
+                },
+                "createTime": {
+                        "default": "建立時間",
+                        "en": "Creation Time",
+                        "zh-cn": "创建时间",
+                        "id": "Waktu Pembuatan"
+                },
+                "modifyTime": {
+                        "default": "異動時間",
+                        "en": "Modification Time",
+                        "zh-cn": "修改时间",
+                        "id": "Waktu Modifikasi"
+                },
+                "applyTime": {
+                        "default": "申請時間",
+                        "en": "Application Time",
+                        "zh-cn": "申请时间",
+                        "id": "Waktu Pengajuan"
+                },
+                "completeTime": {
+                        "default": "審批完成時間",
+                        "en": "Approval Completion Time",
+                        "zh-cn": "审批完成时间",
+                        "id": "Waktu Penyelesaian Persetujuan"
+                },
+                "formCode": {
+                        "default": "表單組態代碼",
+                        "en": "Form Configuration Code",
+                        "zh-cn": "表单配置代码",
+                        "id": "Kode Konfigurasi Formulir"
+                },
+                "formStatus": {
+                        "default": "表單狀態",
+                        "en": "Form Status",
+                        "zh-cn": "表单状态",
+                        "id": "Status Formulir"
+                },
+                "formNo": {
+                        "default": "表單號碼",
+                        "en": "Form Number",
+                        "zh-cn": "表单号码",
+                        "id": "Nomor Formulir"
+                },
+                "formVer": {
+                        "default": "表單版號",
+                        "en": "Form Version",
+                        "zh-cn": "表单版本",
+                        "id": "Versi Formulir"
+                },
+                "flowProcess": {
+                        "default": "表單流程 ID",
+                        "en": "Form Process ID",
+                        "zh-cn": "表单流程ID",
+                        "id": "ID Proses Formulir"
+                }
+        },
+        "content": {
+                "_": {
+                        "default": " 提案資訊",
+                        "en": "",
+                        "zh-cn": " 提案資訊",
+                        "id": ""
+                },
+                "67ddacad-101c-4ec7-a5c4-9a02165e6ae4": {
+                        "default": "基本資料(隱藏)",
+                        "en": "",
+                        "zh-cn": "基本資料(隱藏)",
+                        "id": ""
+                },
+                "applyEmpId": {
+                        "default": "送審人工號",
+                        "en": "",
+                        "zh-cn": "送審人工號",
+                        "id": ""
+                },
+                "applyName": {
+                        "default": "送審人名稱",
+                        "en": "",
+                        "zh-cn": "送審人名稱",
+                        "id": ""
+                },
+                "applyDeptCode": {
+                        "default": "送審人部門編碼",
+                        "en": "",
+                        "zh-cn": "送審人部門編碼",
+                        "id": ""
+                },
+                "applyDeptName": {
+                        "default": "送審人部門名稱",
+                        "en": "",
+                        "zh-cn": "送審人部門名稱",
+                        "id": ""
+                },
+                "bf061b76-ed55-4824-8cd3-def549be6d42": {
+                        "default": "提案屬性",
+                        "en": "",
+                        "zh-cn": "提案屬性",
+                        "id": ""
+                },
+                "isExecuted": {
+                        "default": "是否已實施",
+                        "en": "",
+                        "zh-cn": "是否已實施",
+                        "id": ""
+                },
+                "mainCategory": {
+                        "default": "主題別",
+                        "en": "",
+                        "zh-cn": "主題別",
+                        "id": ""
+                },
+                "subCategory": {
+                        "default": "次主題",
+                        "en": "",
+                        "zh-cn": "次主題",
+                        "id": ""
+                },
+                "subject": {
+                        "default": "改善主題",
+                        "en": "",
+                        "zh-cn": "改善主題",
+                        "id": ""
+                },
+                "areaName": {
+                        "default": "區域名稱",
+                        "en": "",
+                        "zh-cn": "區域名稱",
+                        "id": ""
+                },
+                "4f4559f7-362d-424b-8395-64e0b0d0a301": {
+                        "default": "提案人摘要",
+                        "en": "",
+                        "zh-cn": "提案人摘要",
+                        "id": ""
+                },
+                "pm": {
+                        "default": "共同提案人代表",
+                        "en": "",
+                        "zh-cn": "共同提案人代表",
+                        "id": ""
+                },
+                "pmName": {
+                        "default": "共同提案人代表-名稱",
+                        "en": "",
+                        "zh-cn": "共同提案人代表-名稱",
+                        "id": ""
+                },
+                "pmDept": {
+                        "default": "共同提案人代表單位",
+                        "en": "",
+                        "zh-cn": "共同提案人代表單位",
+                        "id": ""
+                },
+                "pmDeptName": {
+                        "default": "共同提案人代表單位-名稱",
+                        "en": "",
+                        "zh-cn": "共同提案人代表單位-名稱",
+                        "id": ""
+                },
+                "pmCounts": {
+                        "default": "共同提案人數",
+                        "en": "",
+                        "zh-cn": "共同提案人數",
+                        "id": ""
+                },
+                "3478293c-3ea3-4c89-b8c8-212602e003f8": {
+                        "default": "審批摘要",
+                        "en": "",
+                        "zh-cn": "審批摘要",
+                        "id": ""
+                },
+                "approveStatus": {
+                        "default": "目前審批狀態",
+                        "en": "",
+                        "zh-cn": "目前審批狀態",
+                        "id": ""
+                },
+                "currentApprover_show": {
+                        "default": "目前待審批",
+                        "en": "",
+                        "zh-cn": "目前待審批",
+                        "id": ""
+                },
+                "currentApproverDone_show": {
+                        "default": "目前審批已完成",
+                        "en": "",
+                        "zh-cn": "目前審批已完成",
+                        "id": ""
+                },
+                "endLevel_show": {
+                        "default": "預估最高階層",
+                        "en": "",
+                        "zh-cn": "預估最高階層",
+                        "id": ""
+                },
+                "endLevelAppover_show": {
+                        "default": "預估最高階層審批主管",
+                        "en": "",
+                        "zh-cn": "預估最高階層審批主管",
+                        "id": ""
+                }
+        },
+        "benefitContent": {
+                "_": {
+                        "default": "改善內容",
+                        "en": "",
+                        "zh-cn": "改善內容",
+                        "id": ""
+                },
+                "b8fcde71-362d-441b-9571-44fe481097b2": {
+                        "default": "改善前",
+                        "en": "",
+                        "zh-cn": "改善前",
+                        "id": ""
+                },
+                "beforeDescription": {
+                        "default": "改善前敘述",
+                        "en": "",
+                        "zh-cn": "改善前敘述",
+                        "id": ""
+                },
+                "40abf3cd-fa8f-44c8-958f-4f482b01643a": {
+                        "default": "改善構想",
+                        "en": "",
+                        "zh-cn": "改善構想",
+                        "id": ""
+                },
+                "focusPoint": {
+                        "default": "著眼點",
+                        "en": "",
+                        "zh-cn": "著眼點",
+                        "id": ""
+                },
+                "expectedBenefit": {
+                        "default": "預期效益說明",
+                        "en": "",
+                        "zh-cn": "預期效益說明",
+                        "id": ""
+                },
+                "0362d141-857b-4246-ac27-bfda4aa9c187": {
+                        "default": "改善後",
+                        "en": "",
+                        "zh-cn": "改善後",
+                        "id": ""
+                },
+                "afterDescription": {
+                        "default": "改善後敘述",
+                        "en": "",
+                        "zh-cn": "改善後敘述",
+                        "id": ""
+                },
+                "5e78beb5-5734-4fea-a83f-0f8e6fb8f776": {
+                        "default": "預期效益",
+                        "en": "",
+                        "zh-cn": "預期效益",
+                        "id": ""
+                },
+                "benefitLaborType": {
+                        "default": "效益(人員負荷)",
+                        "en": "",
+                        "zh-cn": "效益(人員負荷)",
+                        "id": ""
+                },
+                "benefitLaborValue": {
+                        "default": "效益(人員負荷)-數值",
+                        "en": "",
+                        "zh-cn": "效益(人員負荷)-數值",
+                        "id": ""
+                },
+                "benefitCostType": {
+                        "default": "效益(成本)",
+                        "en": "",
+                        "zh-cn": "效益(成本)",
+                        "id": ""
+                },
+                "benefitCostValue": {
+                        "default": "效益(成本)-數值",
+                        "en": "",
+                        "zh-cn": "效益(成本)-數值",
+                        "id": ""
+                },
+                "benefitSpaceType": {
+                        "default": "效益(空間)",
+                        "en": "",
+                        "zh-cn": "效益(空間)",
+                        "id": ""
+                },
+                "benefitSpaceValue": {
+                        "default": "效益(空間)-數值",
+                        "en": "",
+                        "zh-cn": "效益(空間)-數值",
+                        "id": ""
+                },
+                "benefitAttachmentPath": {
+                        "default": "效益附件",
+                        "en": "",
+                        "zh-cn": "效益附件",
+                        "id": ""
+                }
+        },
+        "pmContent": {
+                "_": {
+                        "default": "共同提案人",
+                        "en": "",
+                        "zh-cn": "共同提案人",
+                        "id": ""
+                },
+                "proposalCoProposer": {
+                        "default": "共同提案人與獎金分配比例",
+                        "en": "",
+                        "zh-cn": "共同提案人與獎金分配比例",
+                        "id": ""
+                },
+                "_id": {
+                        "default": "id",
+                        "en": "",
+                        "zh-cn": "id",
+                        "id": ""
+                },
+                "proposalId": {
+                        "default": "主表id",
+                        "en": "",
+                        "zh-cn": "主表id",
+                        "id": ""
+                },
+                "pm": {
+                        "default": "共同提案人",
+                        "en": "",
+                        "zh-cn": "共同提案人",
+                        "id": ""
+                }
+        },
+        "caseContent": {
+                "_": {
+                        "default": "案件判定",
+                        "en": "",
+                        "zh-cn": "案件判定",
+                        "id": ""
+                },
+                "39c44763-f431-47fd-b29f-4fa158b57949": {
+                        "default": "案件類型",
+                        "en": "",
+                        "zh-cn": "案件類型",
+                        "id": ""
+                },
+                "caseType": {
+                        "default": "案件類型",
+                        "en": "",
+                        "zh-cn": "案件類型",
+                        "id": ""
+                },
+                "b0c2ee77-3fee-44b7-89a8-85e2c89c566b": {
+                        "default": "一般件判定",
+                        "en": "",
+                        "zh-cn": "一般件判定",
+                        "id": ""
+                },
+                "bonusGeneral": {
+                        "default": "獎金(一般件)",
+                        "en": "",
+                        "zh-cn": "獎金(一般件)",
+                        "id": ""
+                }
+        },
+        "advEvaluationContent": {
+                "_": {
+                        "default": "進階件評分",
+                        "en": "",
+                        "zh-cn": "進階件評分",
+                        "id": ""
+                }
+        },
+        "approverContent": {
+                "_": {
+                        "default": "簽核資訊",
+                        "en": "",
+                        "zh-cn": "簽核資訊",
+                        "id": ""
+                },
+                "41a8f380-bdbe-4791-886c-ba8da82cbf34": {
+                        "default": "審批摘要",
+                        "en": "",
+                        "zh-cn": "審批摘要",
+                        "id": ""
+                },
+                "currentLevel": {
+                        "default": "當前階層",
+                        "en": "",
+                        "zh-cn": "當前階層",
+                        "id": ""
+                },
+                "endLevel": {
+                        "default": "預估最高階層",
+                        "en": "",
+                        "zh-cn": "預估最高階層",
+                        "id": ""
+                },
+                "currentScore": {
+                        "default": "當前分數",
+                        "en": "",
+                        "zh-cn": "當前分數",
+                        "id": ""
+                },
+                "currentApprover": {
+                        "default": "目前待審主管",
+                        "en": "",
+                        "zh-cn": "目前待審主管",
+                        "id": ""
+                },
+                "7dee4f73-a290-49ca-96fc-be7b6657fd77": {
+                        "default": "審批主管-經理",
+                        "en": "",
+                        "zh-cn": "審批主管-經理",
+                        "id": ""
+                },
+                "approverLv1": {
+                        "default": "部門經(副)理",
+                        "en": "",
+                        "zh-cn": "部門經(副)理",
+                        "id": ""
+                },
+                "36a3b709-e55a-40b0-9040-13851a4666e1": {
+                        "default": "審批主管-處長",
+                        "en": "",
+                        "zh-cn": "審批主管-處長",
+                        "id": ""
+                },
+                "approverLv2": {
+                        "default": "處長",
+                        "en": "",
+                        "zh-cn": "處長",
+                        "id": ""
+                },
+                "1a888d37-dcd3-4516-a114-c4a585b1abec": {
+                        "default": "審批主管-副總",
+                        "en": "",
+                        "zh-cn": "審批主管-副總",
+                        "id": ""
+                },
+                "approverLv3": {
+                        "default": "副總",
+                        "en": "",
+                        "zh-cn": "副總",
+                        "id": ""
+                },
+                "f40d3c8e-b95e-4646-aaa4-42067ed52416": {
+                        "default": "審批主管-副總與分科會",
+                        "en": "",
+                        "zh-cn": "審批主管-副總與分科會",
+                        "id": ""
+                },
+                "approverLv4": {
+                        "default": "副總與分科會成員",
+                        "en": "",
+                        "zh-cn": "副總與分科會成員",
+                        "id": ""
+                },
+                "vp": {
+                        "default": "副總",
+                        "en": "",
+                        "zh-cn": "副總",
+                        "id": ""
+                },
+                "subcommitteeVp": {
+                        "default": "分科會成員",
+                        "en": "",
+                        "zh-cn": "分科會成員",
+                        "id": ""
+                },
+                "7e96eb5d-73a6-447f-b09b-4b11d364399e": {
+                        "default": "審批主管-總經理與分科會",
+                        "en": "",
+                        "zh-cn": "審批主管-總經理與分科會",
+                        "id": ""
+                },
+                "approverLv5": {
+                        "default": "總經理與分科會成員",
+                        "en": "",
+                        "zh-cn": "總經理與分科會成員",
+                        "id": ""
+                },
+                "gm": {
+                        "default": "總經理",
+                        "en": "",
+                        "zh-cn": "總經理",
+                        "id": ""
+                },
+                "subcommitteeGm": {
+                        "default": "分科會成員",
+                        "en": "",
+                        "zh-cn": "分科會成員",
+                        "id": ""
+                },
+                "16d7648c-11e1-469b-a43b-78cd7c1d3729": {
+                        "default": "系統紀錄",
+                        "en": "",
+                        "zh-cn": "系統紀錄",
+                        "id": ""
+                },
+                "highestChangeLog": {
+                        "default": "最高階層變動紀錄",
+                        "en": "",
+                        "zh-cn": "最高階層變動紀錄",
+                        "id": ""
+                }
+        },
+        "_notification": {
+                "_": {
+                        "default": "申請單通知對象",
+                        "en": "",
+                        "zh-cn": "申請單通知對象",
+                        "id": ""
+                },
+                "150fccf6-a76b-4154-98ad-96db4eb40d90": {
+                        "default": "「送審後」通知對象",
+                        "en": "",
+                        "zh-cn": "「送審後」通知對象",
+                        "id": ""
+                },
+                "recipientsOnApply": {
+                        "default": "指定人員",
+                        "en": "",
+                        "zh-cn": "指定人員",
+                        "id": ""
+                },
+                "recipientRolesOnApply": {
+                        "default": "指定系統角色",
+                        "en": "",
+                        "zh-cn": "指定系統角色",
+                        "id": ""
+                },
+                "f4ef2f40-d826-4440-9e19-c04f1c6cb36a": {
+                        "default": "「審批通過」通知對象",
+                        "en": "",
+                        "zh-cn": "「審批通過」通知對象",
+                        "id": ""
+                },
+                "allStaffOnComplete": {
+                        "default": "公司全體同仁",
+                        "en": "",
+                        "zh-cn": "公司全體同仁",
+                        "id": ""
+                },
+                "recipientsOnComplete": {
+                        "default": "指定人員",
+                        "en": "",
+                        "zh-cn": "指定人員",
+                        "id": ""
+                },
+                "recipientRolesOnComplete": {
+                        "default": "指定系統角色",
+                        "en": "",
+                        "zh-cn": "指定系統角色",
+                        "id": ""
+                }
+        }
+}
